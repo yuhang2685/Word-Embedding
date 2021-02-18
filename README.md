@@ -1,6 +1,9 @@
 # Word-Embedding
 
-We built a simple Movie Review Sentiment Classifier which achieved 83% accuracy.
+For demonstrating how to build a "home-made" Embedding Matrix, we created a simple Movie Review Sentiment Classifier which achieved 83% accuracy.
+Higher accurate model is out of scope of this demo.
+
+<img src="https://github.com/yuhang2685/Word-Embedding/blob/main/model.png" width="55%">
 
 <img src="https://github.com/yuhang2685/Word-Embedding/blob/main/MovieReview-Accuracy.png" width="35%">
 
