@@ -12,7 +12,26 @@ imdb supplies a set of 25,000 highly polar movie reviews for training, and 25,00
 A byproduct of the classifier is an "Embedding Matrix",
 which has vocabulary size 10,000 and dimension 16.
 
-<img src="https://github.com/yuhang2685/Word-Embedding/blob/main/model.png" width="45%">
+```
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      (None, 120, 16)           160000    
+_________________________________________________________________
+conv1d (Conv1D)              (None, 116, 128)          10368     
+_________________________________________________________________
+global_average_pooling1d (Gl (None, 128)               0         
+_________________________________________________________________
+dense_2 (Dense)              (None, 6)                 774       
+_________________________________________________________________
+dense_3 (Dense)              (None, 1)                 7         
+=================================================================
+Total params: 171,149
+Trainable params: 171,149
+Non-trainable params: 0
+_________________________________________________________________
+```
 
 ## Performance
 
